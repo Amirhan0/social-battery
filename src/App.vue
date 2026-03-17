@@ -13,6 +13,8 @@ import EnergyChart from './components/EnergyChart.vue'
 import StatsPanel from './components/StatsPanel.vue'
 
 const store = useEnergyStore()
+ 
+
 
 type Tab = 'dashboard' | 'history' | 'stats'
 const activeTab = ref<Tab>('dashboard')
